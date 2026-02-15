@@ -9,3 +9,4 @@ K-Means clustering with K = 2 was then applied on the extracted features. Since 
 In the next part, a template image (Dr_Shashi_Tharoor.jpg) was processed in the same way. Its mean Hue and Saturation were computed and passed to the trained K-Means model to predict its cluster label. The template point was then plotted on the same graph to visualize which cluster it belongs to.
 
 From the results, it was observed that faces with similar color properties were grouped together effectively. This experiment demonstrated how feature extraction and distance-based clustering work in practice. It also reinforced concepts such as Euclidean distance, cluster centroids, and the importance of choosing meaningful features for classification.
+
